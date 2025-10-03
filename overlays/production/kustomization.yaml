@@ -1,8 +1,9 @@
 kind: Kustomization
-
+bases:
+  - ../../base
 resources:
-- deployment-frontend.yaml
-- deployment.yaml
-- service-frontend.yaml
-- service.yaml
-
+- dbclaim-pvc.yaml
+- route.yaml
+patches:
+  - path: deployment-patch.yaml
+namePrefix: prod-
