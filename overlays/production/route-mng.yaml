@@ -5,6 +5,7 @@ metadata:
   labels:
     app: todonodejs
     name: frontend
+    cluster: mng
 spec:
   host: todo.apps.ocp4-mng.example.com
   path: /todo
