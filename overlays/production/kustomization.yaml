@@ -4,6 +4,6 @@ bases:
 resources:
 - dbclaim-pvc.yaml
 - route.yaml
-patches:
-  - path: deployment-patch.yaml
+#patches:
+#  - path: deployment-patch.yaml
 namePrefix: prod-
