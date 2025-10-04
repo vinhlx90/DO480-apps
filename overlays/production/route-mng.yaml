@@ -13,3 +13,4 @@ spec:
     kind: Service
     name: prod-frontend
     weight: 100
+  wildcardPolicy: none
